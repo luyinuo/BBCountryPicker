@@ -1,0 +1,6 @@
+framework module BBCountryPicker {
+  umbrella header "BBCountryPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

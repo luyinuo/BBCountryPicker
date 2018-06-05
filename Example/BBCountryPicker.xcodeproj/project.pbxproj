@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		153207B22AF91DE404C37C61 /* Pods_BBCountryPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E16BBF0C779E614A0745A4 /* Pods_BBCountryPicker_Tests.framework */; };
 		18E886D0F849E2F19DF37596 /* Pods_BBCountryPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A5B187C5DD30459E36B99E /* Pods_BBCountryPicker_Example.framework */; };
+		19AF078D20C6732300F9AB42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 19AF078320C6732300F9AB42 /* .gitkeep */; };
+		19AF078E20C6732300F9AB42 /* BBCountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF078520C6732300F9AB42 /* BBCountryModel.m */; };
+		19AF078F20C6732300F9AB42 /* BBCountryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF078720C6732300F9AB42 /* BBCountryPickerViewController.m */; };
+		19AF079020C6732300F9AB42 /* BBCountryPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19AF078820C6732300F9AB42 /* BBCountryPickerViewController.xib */; };
+		19AF079120C6732300F9AB42 /* Country_en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19AF078A20C6732300F9AB42 /* Country_en.plist */; };
+		19AF079220C6732300F9AB42 /* Country_zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19AF078B20C6732300F9AB42 /* Country_zh.plist */; };
+		19AF079320C6732300F9AB42 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF078C20C6732300F9AB42 /* ReplaceMe.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,7 +46,16 @@
 /* Begin PBXFileReference section */
 		0B7210662E6BBA689393E3D6 /* Pods-BBCountryPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCountryPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCountryPicker_Example/Pods-BBCountryPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		12A5B187C5DD30459E36B99E /* Pods_BBCountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCountryPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EDC08E6F616737DC94EC4F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19AF078320C6732300F9AB42 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19AF078420C6732300F9AB42 /* BBCountryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCountryModel.h; sourceTree = "<group>"; };
+		19AF078520C6732300F9AB42 /* BBCountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCountryModel.m; sourceTree = "<group>"; };
+		19AF078620C6732300F9AB42 /* BBCountryPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCountryPickerViewController.h; sourceTree = "<group>"; };
+		19AF078720C6732300F9AB42 /* BBCountryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCountryPickerViewController.m; sourceTree = "<group>"; };
+		19AF078820C6732300F9AB42 /* BBCountryPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCountryPickerViewController.xib; sourceTree = "<group>"; };
+		19AF078A20C6732300F9AB42 /* Country_en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Country_en.plist; sourceTree = "<group>"; };
+		19AF078B20C6732300F9AB42 /* Country_zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Country_zh.plist; sourceTree = "<group>"; };
+		19AF078C20C6732300F9AB42 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1EDC08E6F616737DC94EC4F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3C997FE03E4ED90E3E6A5774 /* Pods-BBCountryPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCountryPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCountryPicker_Tests/Pods-BBCountryPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BBCountryPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCountryPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,9 +77,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61E16BBF0C779E614A0745A4 /* Pods_BBCountryPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCountryPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70E7A58D657BD61362670F7B /* BBCountryPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BBCountryPicker.podspec; path = ../BBCountryPicker.podspec; sourceTree = "<group>"; };
+		70E7A58D657BD61362670F7B /* BBCountryPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BBCountryPicker.podspec; path = ../BBCountryPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72D20115DE65C63A3572937A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		72D20115DE65C63A3572937A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A1BA9115E80FC8A76262B41 /* Pods-BBCountryPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCountryPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCountryPicker_Tests/Pods-BBCountryPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FED60D661BE6B6401FFB37B3 /* Pods-BBCountryPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCountryPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCountryPicker_Example/Pods-BBCountryPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +111,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19AF078220C6732300F9AB42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19AF078320C6732300F9AB42 /* .gitkeep */,
+				19AF078420C6732300F9AB42 /* BBCountryModel.h */,
+				19AF078520C6732300F9AB42 /* BBCountryModel.m */,
+				19AF078620C6732300F9AB42 /* BBCountryPickerViewController.h */,
+				19AF078720C6732300F9AB42 /* BBCountryPickerViewController.m */,
+				19AF078820C6732300F9AB42 /* BBCountryPickerViewController.xib */,
+				19AF078920C6732300F9AB42 /* LanguageConfig */,
+				19AF078C20C6732300F9AB42 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = ../BBCountryPicker/Classes;
+			sourceTree = "<group>";
+		};
+		19AF078920C6732300F9AB42 /* LanguageConfig */ = {
+			isa = PBXGroup;
+			children = (
+				19AF078A20C6732300F9AB42 /* Country_en.plist */,
+				19AF078B20C6732300F9AB42 /* Country_zh.plist */,
+			);
+			path = LanguageConfig;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +219,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				19AF078220C6732300F9AB42 /* Classes */,
 				70E7A58D657BD61362670F7B /* BBCountryPicker.podspec */,
 				72D20115DE65C63A3572937A /* README.md */,
 				1EDC08E6F616737DC94EC4F9 /* LICENSE */,
@@ -277,9 +319,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				19AF079120C6732300F9AB42 /* Country_en.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				19AF078D20C6732300F9AB42 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				19AF079020C6732300F9AB42 /* BBCountryPickerViewController.xib in Resources */,
+				19AF079220C6732300F9AB42 /* Country_zh.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +401,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AF078E20C6732300F9AB42 /* BBCountryModel.m in Sources */,
 				6003F59E195388D20070C39A /* BBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BBViewController.m in Sources */,
+				19AF078F20C6732300F9AB42 /* BBCountryPickerViewController.m in Sources */,
+				19AF079320C6732300F9AB42 /* ReplaceMe.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

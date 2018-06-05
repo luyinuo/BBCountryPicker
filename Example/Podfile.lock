@@ -1,0 +1,16 @@
+PODS:
+  - BBCountryPicker (0.1.0)
+
+DEPENDENCIES:
+  - BBCountryPicker (from `../`)
+
+EXTERNAL SOURCES:
+  BBCountryPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBCountryPicker: d8e1a87a3ae9d70616247c11352cd3d77f93aa40
+
+PODFILE CHECKSUM: c6eeb2abe869c7494349cc583215c8c53949d2f6
+
+COCOAPODS: 1.5.0
