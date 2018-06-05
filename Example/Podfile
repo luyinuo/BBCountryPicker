@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BBCountryPicker_Example' do
+  pod 'BBCountryPicker', :path => '../'
+
+  target 'BBCountryPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
